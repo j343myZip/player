@@ -1,0 +1,51 @@
+/* Empty. Add your own CSS if you like */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 0px;
+  width: 185px;
+  height: 278px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+
+}
+.triangle-bottom{
+      width: 50%;
+      float: right;
+      height: 100%;
+      border-style: solid;
+      border-width: 0px 0px 67px 93px;
+      border-color: transparent transparent #007bff transparent;
+      position: relative;
+}
+.triangle-span{
+  color: white;
+font-size: 13px;
+position: absolute;
+right: 0px;
+bottom: 0px;
+width: 46%;
+line-height: 13px;
+text-align: right;
+margin-right: 3px;
+}

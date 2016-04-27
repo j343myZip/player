@@ -1,0 +1,14 @@
+<ion-view view-title="Movies">
+  <ion-content>
+    <ul class="flex-container">
+      <a href="/item/{{movie.imdb}}/{{movie.title}}">
+  <li ng-repeat="movie in movies" class="flex-item" style="background-image:url({{movie.poster_med}})">
+    <div class='triangle-bottom'>
+
+    </div>
+      <div class='triangle-span'>{{movie.title}}</div>
+  </li>
+</a>
+</ul>
+  </ion-content>
+</ion-view>

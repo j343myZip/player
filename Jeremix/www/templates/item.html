@@ -1,0 +1,22 @@
+<ion-view view-title="{{item.title}}">
+  <ion-content>
+    <ion-list ng-repeat="season in seasons">
+<ion-list ng-repeat="episodes in season">
+      <ion-item ng-click='open(episodes)'>
+        {{episodes.title}}
+      </ion-item>
+    </ion-list>
+</ion-list>
+<script id="video.html" type="text/ng-template">
+  <ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">Video</h1>
+    </ion-header-bar>
+    <ion-content>
+    <div id='videoEtiqueta'>
+    </div>
+    </ion-content>
+  </ion-modal-view>
+</script>
+  </ion-content>
+</ion-view>

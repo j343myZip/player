@@ -1,0 +1,13 @@
+<ion-view view-title="Series">
+  <ion-content>
+    <ul class="flex-container">
+
+  <a href="#/app/item/{{serie.imdb}}/{{serie.title | escape}}" ng-repeat="serie in series" class="flex-item" style="background-image:url({{serie.poster_med}})">
+    <div class='triangle-bottom'>
+
+    </div>
+      <div class='triangle-span'>{{serie.title}}</div>
+</a>
+</ul>
+  </ion-content>
+</ion-view>
